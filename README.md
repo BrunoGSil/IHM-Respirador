@@ -10,19 +10,29 @@ Compile o .ino para o ESP32 (Você precisa de arquivos adicionais para compilar 
 
 *Arquivo .json indicado para o ESP32: https://dl.espressif.com/dl/package_esp32_index.json*
 
+A imagem abaixo mostra quais pinos do ESP32 devem ser conectados no conector VGA.
+
+![14 R, 19 G, 27 B, 26 VSYNC, 25 HSYNC](./VGA.svg)
+
 Pronto! Na teoria o microcontrolador deve mostrar imagens no seu monitor VGA.
 
 # Bugs conhecidos
 
+-Nenhum ... No momento ...
+
 # TODO
 
--Incrementar funções para leitura de botões e encoder;
+-Tela inicial de setup de parâmetros;
 
--Configurar GPIOs para botões, e algumas saída;
+-Definir os parâmetros nas caixas, botões e gráficos;
 
--Incrementar leitura de 3 A/Ds (1.1-3.9V) (Evitar pinos que possuam interrupções);
+<del>Incrementar funções para leitura de botões e encoder;</del>
 
--Habilitar interrupções;
+<del>Configurar GPIOs para botões, e algumas saída;</del>
+
+<del>Incrementar leitura de 3 A/Ds (0-3.0V)</del>
+
+<del>Habilitar interrupções;</del>
 
 -Opção para aspecto 16:9 (Atualmente somente para 4:3).
 
